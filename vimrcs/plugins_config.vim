@@ -236,7 +236,7 @@ autocmd BufWritePost *today.md silent! !~/tweaks/termux/activities-pc/upload-act
 let g:neural = {
 \   'source': {
 \       'openai': {
-\           '',
+\           'api_key': '',
 \       },
 \   },
 \}
