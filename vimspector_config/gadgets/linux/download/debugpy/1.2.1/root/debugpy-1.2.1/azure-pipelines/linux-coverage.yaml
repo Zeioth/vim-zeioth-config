@@ -1,0 +1,18 @@
+variables:
+    architecture: "x64"
+    python.version: "3.8"
+
+jobs:
+    - job: 'Coverage'
+      timeoutInMinutes: 15
+      pool:
+          name: Azure Pipelines
+          demands: java
+          vmImage: "ubuntu-18.04"
+      steps:
+          - script: |
+              sudo apt-get --yes install gdb
+              sudo sysctl kernel.yama.ptrace_scope=0
+            displayName: 'Install gdb'
+
+          - template: "templates/coverage.yml"

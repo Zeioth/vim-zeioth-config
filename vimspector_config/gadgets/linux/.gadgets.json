@@ -1,0 +1,92 @@
+{
+  "adapters": {
+    "CodeLLDB": {
+      "command": [
+        "${gadgetDir}/CodeLLDB/adapter/codelldb",
+        "--port",
+        "${unusedLocalPort}"
+      ],
+      "configuration": {
+        "args": [],
+        "cargo": {},
+        "cwd": "${workspaceRoot}",
+        "env": {},
+        "name": "lldb",
+        "terminal": "integrated",
+        "type": "lldb"
+      },
+      "name": "CodeLLDB",
+      "port": "${unusedLocalPort}",
+      "type": "CodeLLDB"
+    },
+    "chrome": {
+      "command": [
+        "node",
+        "${gadgetDir}/debugger-for-chrome/out/src/chromeDebug.js"
+      ],
+      "name": "debugger-for-chrome",
+      "type": "chrome"
+    },
+    "debugpy": {
+      "command": [
+        "/usr/bin/python3",
+        "${gadgetDir}/debugpy/build/lib/debugpy/adapter"
+      ],
+      "configuration": {
+        "python": "/usr/bin/python3",
+        "subProcess": false
+      },
+      "name": "debugpy"
+    },
+    "firefox": {
+      "command": [
+        "node",
+        "${gadgetDir}/debugger-for-firefox/dist/adapter.bundle.js"
+      ],
+      "name": "debugger-for-firefox",
+      "type": "firefox"
+    },
+    "multi-session": {
+      "host": "${host}",
+      "port": "${port}"
+    },
+    "netcoredbg": {
+      "attach": {
+        "pidProperty": "processId",
+        "pidSelect": "ask"
+      },
+      "command": [
+        "${gadgetDir}/netcoredbg/netcoredbg",
+        "--interpreter=vscode"
+      ],
+      "configuration": {
+        "cwd": "${workspaceRoot}"
+      },
+      "name": "netcoredbg"
+    },
+    "vscode-cpptools": {
+      "attach": {
+        "pidProperty": "processId",
+        "pidSelect": "ask"
+      },
+      "command": [
+        "${gadgetDir}/vscode-cpptools/debugAdapters/bin/OpenDebugAD7"
+      ],
+      "configuration": {
+        "args": [],
+        "cwd": "${workspaceRoot}",
+        "environment": [],
+        "type": "cppdbg"
+      },
+      "name": "cppdbg"
+    },
+    "vscode-node": {
+      "command": [
+        "node",
+        "${gadgetDir}/vscode-node-debug2/out/src/nodeDebug.js"
+      ],
+      "name": "node2",
+      "type": "node2"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://puremourning.github.io/vimspector/schema/vimspector.schema.json#",
+  "configurations": {
+    "Python: Run file": {
+      "adapter": "debugpy",
+      "filetypes": [ "python" ],
+      "default": false,
+      "configuration": {
+        "request": "launch",
+        "program": "${file}",
+        "stopOnEntry": true,
+        "cwd": "${fileDirname}"
+      }
+    },
+    "Python: Run solution [TEMPLATE EXAMPLE - Requires .vimspector in the root of the project, so vimspector know where the root is.]": {
+      "adapter": "debugpy",
+      "filetypes": [ "python" ],
+      "default": false,
+      "configuration": {
+        "request": "launch",
+        "program": "file containing the entry point.",
+        "stopOnEntry": true,
+        "cwd": "${workspaceRoot}"
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+import debuggee
+
+debuggee.setup()

@@ -1,0 +1,5 @@
+include LICENSE
+include DESCRIPTION.md
+global-exclude *.py[cdo]
+include versioneer.py
+include src/debugpy/_version.py

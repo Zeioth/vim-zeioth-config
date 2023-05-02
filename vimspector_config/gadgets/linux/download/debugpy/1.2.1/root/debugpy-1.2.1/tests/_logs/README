@@ -1,0 +1,8 @@
+This directory will contain debugpy and pydevd log files from the test runs.
+
+A separate directory will be created for every test. In that directory, a separate
+subdirectory will be created for every debug.Session instance, containing debugpy logs
+for the processes that it spawns, and pydevd log.
+
+If the test has failed, an empty file called FAILED.log is additionally created in
+the test log directory, to easily find all failed tests after a large run.

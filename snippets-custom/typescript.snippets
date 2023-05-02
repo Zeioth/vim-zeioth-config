@@ -1,0 +1,19 @@
+
+# --------------------------- CYPRESS -------------------------------
+snippet describe "(Cypress)"
+describe('${1:What is testing} - Happy day scenario', () => {
+}
+endsnippet
+
+snippet it "(Cypress)"
+// ${1/\w+\s/\$0/} 
+it('${1: Does a thing}', () => {
+	// ARRANGE
+	const ${2: name}Selector = ''
+	const ${2/\w+\s/\$0/}Value = ''
+	// ACT
+	cy.get(${2/\w+\s/\$0/}Selector)
+	.type(${2/\w+\s/\$0/}Value)
+	// ASSERT
+})
+endsnippet

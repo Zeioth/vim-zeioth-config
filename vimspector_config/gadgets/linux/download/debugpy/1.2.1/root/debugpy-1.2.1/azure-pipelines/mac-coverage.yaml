@@ -1,0 +1,17 @@
+variables:
+    architecture: "x64"
+    python.version: "3.8"
+
+jobs:
+    - job: 'Coverage'
+      timeoutInMinutes: 15
+      pool:
+          name: Azure Pipelines
+          demands: java
+          vmImage: "macOS-10.15"
+      steps:
+          - script: |
+              ulimit -Sn 8192
+            displayName: 'Increase file descriptor limit'
+
+          - template: "templates/coverage.yml"

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://puremourning.github.io/vimspector/schema/vimspector.schema.json#",
+  "configurations": {
+    "Run file - [WARNING: You must define a debugger for this language in your vimrc] ": {
+      "adapter": "debugpy",
+      "filetypes": [ "c", "cs", "javascript", "typescript" ],
+      "default": false,
+      "configuration": {
+        "request": "launch",
+        "program": "${file}",
+        "stopOnEntry": true,
+        "cwd": "${fileDirname}"
+      }
+    },
+    "Run solution - [WARNING: You must define a debugger for this language in your vimrc]": {
+      "adapter": "debugpy",
+      "filetypes": [ "c", "cs", "javascript", "typescript" ],
+      "default": false,
+      "configuration": {
+        "request": "launch",
+        "program": "file containing the entry point.",
+        "stopOnEntry": true,
+        "cwd": "${workspaceRoot}"
+      }
+    }
+  }
+}

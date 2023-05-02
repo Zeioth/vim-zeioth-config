@@ -1,0 +1,47 @@
+{
+  "codeLens.enable": true,
+  "coc.preferences.rootPatterns": [".git", ".vscode"],
+  "coc.preferences.formatOnSaveFiletypes": [
+    "python",
+    "javascript",
+    "javascriptreact",
+    "css"
+  ],
+  "coc.preferences.jumpCommand": "drop",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "python.jediEnabled": false,
+  "python.linting.pylintEnabled": false,
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.formatting.provider": "black",
+  "markdownlint.onChange": false,
+  "markdownlint.config": {
+    "default": true,
+    "line_length": true,
+    "html": true
+  },
+  "tsserver.npm": "/usr/local/bin/npm",
+  "typescript.referencesCodeLens.enable": false,
+  "typescript.implementationsCodeLens.enable": false,
+  "eslint.autoFixOnSave": true,
+  "eslint.probe": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescript"
+  ],
+  "diagnostic.errorSign": " ",
+  "diagnostic.warningSign": "⚠",
+  "diagnostic.infoSign": "☞",
+  "diagnostic.hintSign": "☀",
+  "diagnostic.displayByAle": false,
+  "diagnostic.checkCurrentLine": true,
+  "diagnostic.messageTarget": "echo",
+  "suggest.noselect": false,
+  "suggest.enablePreview": true,
+  "suggest.removeDuplicateItems": true,
+  "suggest.floatEnable": true,
+  "suggest.timeout": 500,
+  "markdown-preview-enhanced.scrollSync": true
+}
