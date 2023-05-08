@@ -46,4 +46,4 @@ Clone the project and run
 * Theme: Monokai
 
 ## FAQ
-* This config uses colemak-dh! But I use qwerty/other!: Go to ./myconfings.vim and comment/delete the part where the colemak-dh is defined. Everything colemak-dh related is defined in this file. But it is always a good idea to take a look into ./vimrcs/plugins_config.vim and chance the keybindings to your personal taste.
+* This config uses colemak-dh: Go to ./myconfings.vim and comment/delete the part where the colemak-dh is defined. Everything colemak-dh related is defined in this file. But it is always a good idea to take a look into ./vimrcs/plugins_config.vim and chance the keybindings to your personal taste.
