@@ -18,7 +18,7 @@ Clone the project and run
 "    -> zen mode               - VIM no distraction mode
 "    -> vim-table-mode         - Markdown tables that grow or decrease as you write.
 
-"    -> ctrl-p                 - Allow VIM to display interactive menus (used py vim-ctrlpobsession)
+"    -> ctrl-p                 - Allow VIM to display interactive menus.
 "    -> vim-prosession         - VIM session management
 "    -> vim-ctrlpobsession     - VIM session management (keybinding)
 "    -> vim-fugitive           - Git integration for VIM
