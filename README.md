@@ -13,7 +13,7 @@ Clone the project and run
 "    -> yankStack              - Cycle through the things you've copied.
 "    -> fzf.vim                - Find in project.
 "    -> far.vim                - Find and replace in project.
-"    -> zen mode               - VIM no distraction mode
+"    -> zen mode               - No distraction mode.
 "    -> vim-table-mode         - Markdown tables that grow or decrease as you write.
 
 "    -> ctrl-p                 - Allow VIM to display interactive menus.
