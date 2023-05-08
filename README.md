@@ -46,3 +46,6 @@ Clone the project and run
 * vim-startify: Show the last files an projects you've been working on when VIM opens.
 * Theme: Tokyo night (enabled by default)
 * Theme: Monokai
+
+## FAQ
+* This config uses colemak-dh! But I use qwerty/other!: Go to ./myconfings.vim and comment/delete the part where the colemak-dh is defined. Everything colemak-dh related is defined in this file. But it is always a good idea to take a look into ./vimrcs/plugins_config.vim and chance the keybindings to your personal taste.
