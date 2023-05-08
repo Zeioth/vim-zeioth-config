@@ -10,7 +10,7 @@ Clone the project and run
      ./install_vimrc.sh 
 
 
-## Plugins included
+## Main plugins included
 ```
 "    -> yankStack              - Cycle through the things you've copied.
 "    -> fzf.vim                - Find in project.
