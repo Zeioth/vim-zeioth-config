@@ -1,6 +1,3 @@
-# vim-zeioth-config
-The best vimconfig you are gonna find out there. Most likely.
-
 ## DEMO (video)
 [Here I explain every plugin of this VIM distro](https://www.youtube.com/watch?v=JJqClkIQMOo)
 ![screenshot_2023-05-08_16-00-29_934329128](https://user-images.githubusercontent.com/3357792/236844237-c16db3a1-2583-4294-9647-6f9c8b4a5d14.png)
