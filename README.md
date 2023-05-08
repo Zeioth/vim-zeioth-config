@@ -41,7 +41,7 @@ Clone the project and run
 ```
 
 ## Other plugins included
-* vim-comments: Press gcc to convert your current relection into code comments.
+* vim-comments: Press gcc to convert your current selection into code comments.
 * vim-surround: keybindings to add/remove "", '', (), [], {}
 * vim-startify: Show the last files an projects you've been working on when VIM opens.
 * Theme: Tokyo night (enabled by default)
