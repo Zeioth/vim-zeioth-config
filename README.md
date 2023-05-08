@@ -2,7 +2,7 @@
 The best vimconfig you are gonna find out there. Most likely.
 
 ## DEMO (video)
-[Here](https://www.youtube.com/watch?v=JJqClkIQMOo) I explain every plugin of this VIM distro:
+[Here I explain every plugin of this VIM distro](https://www.youtube.com/watch?v=JJqClkIQMOo)
 
 ## How to install
 Clone the project and run
